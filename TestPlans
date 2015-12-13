@@ -1,0 +1,76 @@
+Test Plan1:
+
+Inputs: FPS, Aggressive
+
+
+Expected results: Your new name is "random FPS name" and your new title is "random FPS title"
+
+
+Actual Results: Your new name is Crixus and your new title is The Patient!
+
+Test Plan2:
+
+Inputs: blank, Passive
+
+
+Expected results: Your new name is Mud and your new title is "random Passive title"!
+
+
+Actual Results: Your new name is Mud and your new title is Of Iron!
+
+
+
+Test Plan3:
+
+Inputs: 23,50
+
+
+Expected results: Your new name is Mud and your new title is Of Mud!
+
+
+Actual Results: Your new name is Mud and your new title is Of Mud!
+
+
+
+Test Plan4:
+
+Inputs: RPG, passive
+
+
+Expected results: Your new name is "random RPG name" and your new title is Of Mud!
+
+
+Actual Results: Your new name is Lucian and your new title is Of Mud!
+
+
+
+Test Plan5:
+
+Inputs: Puzzle, Aggressive
+
+
+Expected results: Your new name is "random Puzzle name" and your new title is "random aggressive title"!
+
+
+Actual Results: Your new name is PlacementMaster and your new title is Lord of Lost Yolos!
+
+
+
+Test Plan6:
+
+Inputs: Troll, Support
+
+
+Expected results: Your new name is "random Troll name" and your new title is "random Support title"!
+
+
+Actual Results: Your new name is MeatMyMom and your new title is Crisis Mender!
+
+
+Test Plan7:
+
+Inputs: Trll, Aggressive
+
+Expected results: Your new name is Mud and your new title is "random Aggressive title"!
+
+Actual Results: Your new name is Mud and your new title is Firestick Fury!

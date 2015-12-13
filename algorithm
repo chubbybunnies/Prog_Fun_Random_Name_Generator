@@ -1,0 +1,36 @@
+generatingRandomNameForGame
+BEGIN
+  Initialize output to ""
+  Initialize gameType to ""
+  Initialize gamePlayStyle to ""
+  Prompt user for the gameType they would like a name for with "What type of game do you need a name for?"
+  Prompt user for the gamePlayStyle with "What is your play style?"
+  IF gameType is equal to "FPS" THEN
+    name is equal to random FPS name
+  ELSE IF gameType is equal to "Action" THEN
+    name is equal to random Action name
+  ELSE IF gameType is equal to "RPG" THEN
+    name is equal to random RPG name
+  ELSE IF gameType is equal to "Puzzle" THEN
+    name is equal to random Puzzle name
+  ELSE IF gameType is "Troll" THEN
+    name is equal to random Troll name
+  ELSE
+    name is equal to "bleh"
+  ENDIF
+  IF gamplayStyle is equal to "Support" THEN
+    title is equal to random Support title
+  ELSE IF gamePlayStyle is equal to "Aggrressive" THEN
+    title is equal to random Aggressive title
+  ELSE IF gamePlayStyle is equal to "Passive" THEN
+    title is equal to random Passive title
+  ELSE IF gamePlayStyle is "Troll" THEN
+    title is equal to random Troll title
+  ELSE
+    name is equal to "bleh"
+  ENDIF
+  output is equal to "Your new name is +name+ and your new title is +title+
+  display output
+END
+    
+  

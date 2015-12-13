@@ -9,15 +9,18 @@ document.write(output); */
 
 
 function gameName(){
+  
   //This is the variable section!
   var playStyle;
   var gameType;
   var output;
   var yourName;
   var yourTitle;
+  
   //This is where we ask client for input!
-  gameType = prompt("Please choose one of the following: FPS, RPG, Action, Troll");
+  gameType = prompt("Please choose one of the following: FPS, RPG, Action,Puzzle or Troll");
   playStyle = prompt("Is your playstyle: Aggressive, Passive, Support or Troll?");
+  
   //This is where the random name will be generated for the client!
   if(gameType === "FPS"){
     var arrayOfFPSNames = ["DeadEyeGuy", "NoseScopeYolo", "HeadShots4Baes","OneMoreShot","SwallowMyBullets"];
@@ -65,7 +68,7 @@ function gameName(){
   }
   //Gotta make sure the client can see their new name and title!
   output = "Your new name is "+yourName+
-  "\nand your exciting new title is "+yourTitle+"!";
+  "\nand your exciting new title is "+yourTitle+"!  If all you got was \"mud\" try typing choices as you see them!";
   document.write(output);
   
 
