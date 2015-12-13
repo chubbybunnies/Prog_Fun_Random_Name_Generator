@@ -11,9 +11,9 @@ document.write(output); */
 function gameName(){
   
   //This is the variable section!
-  var playStyle;
   var gameType;
   var output;
+  var playStyle;
   var yourName;
   var yourTitle;
   
