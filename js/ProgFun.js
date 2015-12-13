@@ -67,8 +67,8 @@ function gameName(){
     yourTitle = "Of Mud";
   }
   //Gotta make sure the client can see their new name and title!
-  output = "Your new name is "+yourName+
-  "\nand your exciting new title is "+yourTitle+"!  If all you got was \"mud\" try typing choices as you see them!";
+  output = "Your new name is: <h1>"+yourName+
+  "</h1>\nand your exciting new title is: <h1>"+yourTitle+"</h1>  If all you got was \"mud\" try typing choices as you see them!";
   document.write(output);
   
 
